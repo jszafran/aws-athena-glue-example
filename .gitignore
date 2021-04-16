@@ -1,3 +1,5 @@
+# custom stuff
+data/*.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm+all,terraform,venv,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm+all,terraform,venv,python
