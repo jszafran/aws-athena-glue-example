@@ -26,7 +26,7 @@ def _generate_row_dict() -> Dict:
     - id (int)
     - date (date in str format YYYY-MM-DD)
     - product (string)
-    :return: str
+    :return: Dict
     """
     return {
         "id": next(id_sequence),
