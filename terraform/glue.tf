@@ -16,7 +16,7 @@ resource "aws_glue_catalog_table" "products" {
   storage_descriptor {
     location      = "s3://${aws_s3_bucket.input_data_bucket.bucket}/input"
     input_format  = "org.apache.hadoop.mapred.TextInputFormat"
-    output_format = "org.apache.hadoop.hive.ql.io.IgnoreKeyTextOutputFormat"
+    output_format = "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat"
 
     ser_de_info {
       name                  = "s3-stream"
